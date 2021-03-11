@@ -26,13 +26,3 @@ class Pedidos(models.Model): #Tercera Tabla
     numero = models.IntegerField()
     fecha = models.DateField()
     entregado = models.BooleanField()
-    
-    
-    
-    
-class Pedidos(models.Model): #Tercera Tabla
-    numero = models.IntegerField()
-    fecha = models.DateField()
-    entregado = models.BooleanField()
-    
-    
